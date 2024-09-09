@@ -271,8 +271,17 @@ nav a{
 .follow-up{
     span{
         font-size: 1.5rem;
-    }
-    
+    }   
+}
+
+#follow-up-download{
+    background-color: var(--ds-footer-btn);
+    border: transparent;
+    color: var(--ds-white);
+    font-size: 1rem;
+    padding: .75rem 2rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
 }
 /* #endregion main */
 
