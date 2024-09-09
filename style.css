@@ -23,9 +23,13 @@ footer{
     font-size: .75rem;
 }
 
+#last-section{
+    padding: 0;
+}
+
 section{
-   padding: 5rem 0rem;
-   color: var(--ds-section-primary);  
+    padding: 5rem 0rem;
+    color: var(--ds-section-primary);  
     img{
         background-size: cover;
     }
@@ -248,13 +252,13 @@ nav a{
 
 #invite-only, #community{
     .pad-item-right{
-        padding: 1rem 0 0 5rem;
+        padding: 2rem 0 0 5rem;
     }
 }
 
 #easy-find{
     .pad-item-left{
-        padding: 2rem 5rem 0 0;
+        padding: 3rem 5rem 0 0;
     }
 }
 
@@ -303,6 +307,7 @@ footer{
 
     span{
         color: var(--ds-white);
+        
     }
 
     a{
@@ -334,6 +339,20 @@ footer{
     color: var(--ds-footer-title);
     font-size: .75rem;
     padding-bottom: .5rem;
+}
+
+#last-section{
+
+    .container{
+        padding: 1rem 0rem;
+        margin-bottom: 2rem;
+    }
+}
+
+#footer-btn{
+    color: white;
+    background-color: var(--ds-footer-btn);
+    border: 0;
 }
 /* #endregion footer */
 
