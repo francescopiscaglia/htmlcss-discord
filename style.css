@@ -107,12 +107,19 @@ footer{
 
 .d-flex{
     display: flex;
-    justify-content: space-between;
 }
 
 .fd-rw{
     flex-direction: row-revers
     e;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-space{
+    justify-content: space-between;
 }
 
 .align-center{
@@ -175,10 +182,16 @@ nav a{
 
 /* #region main */
 #place-to-talk{
-    img{
-        background-size:
+    background-image: url(./img/jumbo.png);
+
+    .section-title{
+        color: var(--ds-white);
     }
-    background-color: var(--ds-bg-banner);
+}
+
+.section-title{
+    display: inline-block;
+    font-size: 2.5rem;
 }
 
 /* #endregion main */
