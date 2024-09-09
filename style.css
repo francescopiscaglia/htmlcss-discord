@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* Make img responsive */
@@ -17,16 +17,15 @@ img{
 header{
     background-color: var(--ds-bg-banner);
     padding: .5rem 0;
-    font-size: .75rem;
 }
 
 footer{
     font-size: .75rem;
 }
 
-section{
+/* section{
     padding: 1rem 0rem;
-}
+} */
 /* #endregion common */
 
 /* #region color palette */
@@ -91,6 +90,10 @@ section{
     .bg-pink{
         background-color: fuchsia;
     }
+
+    .bg-blue{
+        background-color: blue;
+    }
     
     .bg-lblue{
         background-color: lightskyblue;
@@ -119,9 +122,8 @@ section{
 .p-1rem{
     padding: .25rem;
 }
-.bg-blue{
-    background-color: blue;
-}
+
+
 
 .bg-salmon{
     background-color: salmon;
@@ -154,7 +156,9 @@ section{
 nav a{
     color: white;
     text-decoration: none;
-    padding: 1rem;
+    padding: 1.5rem;
+    font-size: .75rem;
+    font-weight: bold;
 }
 
 .btn{
@@ -168,6 +172,17 @@ nav a{
     border: 1px solid white
 }
 /* #endregion header */
+
+/* #region main */
+#place-to-talk{
+    img{
+        background-size:
+    }
+    background-color: var(--ds-bg-banner);
+}
+
+/* #endregion main */
+
 
 /* #region footer */
 footer{
