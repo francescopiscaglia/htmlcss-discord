@@ -101,6 +101,10 @@ section{
     .bg-salmon{
         background-color: salmon;
     }    
+
+    .bg-gray{
+        background-color: lightgrey;
+    }
 }
 
 .container{
@@ -154,10 +158,6 @@ section{
 
 .p-3rem{
     padding: 3rem;
-}
-
-.bg-gray{
-    background-color: lightgrey;
 }
 
 .bg-green{
@@ -249,11 +249,13 @@ nav a{
 }
 
 #easy-find{
-    background-color: var(--ds-bg-secondary);
-    
     .pad-item-left{
         padding: 2rem 5rem 0 0;
     }
+}
+
+#easy-find, #technology{
+    background-color: var(--ds-bg-secondary);
 }
 
 /* #endregion main */
