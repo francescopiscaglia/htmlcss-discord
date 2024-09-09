@@ -1,0 +1,158 @@
+/* #region common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Make img responsive */
+img{
+    max-width: 100%;
+}
+
+header{
+    padding: .5rem 0;
+    font-size: .75rem;
+}
+
+footer{
+    font-size: .75rem;
+}
+
+section{
+    padding: 1rem 0rem;
+}
+/* #endregion common */
+
+/* color palette */
+:root{
+    
+}
+
+/* #region utilities */
+#debug {
+    header{
+        background-color: lightblue;
+    }
+
+    section{
+        height: 250px;
+    }
+
+    section.h-500{
+        height: 500px;
+    }
+
+    section.h-300{
+        height: 300px;
+    }
+
+    #last-section{
+        height: 100%;
+    }
+    
+    .h-100{
+        height: 100%;
+    }
+
+    .w-60{
+        width: 60%;
+    }
+
+    .w-70{
+        width: 70%;
+    }
+
+    .w-40{
+        width:40%;
+    }
+
+    .w-20{
+        width: 20%;
+    }
+
+    .bg-orange{
+        background-color: lightsalmon;
+    }
+
+    .bg-pink{
+        background-color: fuchsia;
+    }
+    
+    .bg-lblue{
+        background-color: lightskyblue;
+    }
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    border: 1px dashed;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fd-rw{
+    flex-direction: row-reverse;
+}
+
+.bordered-item{
+    border: 1px dashed black ;
+}
+
+.p-1rem{
+    padding: .25rem;
+}
+
+/* #region bg color */
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-salmon{
+    background-color: salmon;
+}
+
+.bg-gray{
+    background-color: lightgrey;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-violet{
+    background-color: violet;
+}
+/* #endregion bg color */
+/* #endregion utilities */
+
+/* #region header */
+nav a{
+    text-decoration: none;
+    padding: .25rem;
+}
+/* #endregion header */
+
+/* #region footer */
+footer{
+    section{
+        border-bottom: 1px solid white;
+    }
+
+    #last-section{
+        padding-bottom: 0;
+    }
+}
+/* #endregion footer */
+
+
+
+
