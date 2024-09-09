@@ -156,6 +156,17 @@ nav a{
     text-decoration: none;
     padding: 1rem;
 }
+
+.btn{
+    padding: .5rem .75rem ;
+    border-radius: 1rem;
+    font-size: 12px;
+}
+
+#login-btn{
+    background-color: white;
+    border: 1px solid white
+}
 /* #endregion header */
 
 /* #region footer */
