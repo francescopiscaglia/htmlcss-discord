@@ -67,21 +67,7 @@ footer{
         height: 100%;
     }
 
-    .w-60{
-        width: 60%;
-    }
-
-    .w-70{
-        width: 70%;
-    }
-
-    .w-40{
-        width:40%;
-    }
-
-    .w-20{
-        width: 20%;
-    }
+    
 
     .bg-orange{
         background-color: lightsalmon;
@@ -110,8 +96,11 @@ footer{
 }
 
 .fd-rw{
-    flex-direction: row-revers
-    e;
+    flex-direction: row-reverse;
+}
+
+.fd-column{
+    flex-direction: column;
 }
 
 .justify-center{
@@ -126,11 +115,25 @@ footer{
     align-items: center;
 }
 
+.w-60{
+    width: 60%;
+}
+
+.w-70{
+    width: 70%;
+}
+
+.w-40{
+    width:40%;
+}
+
+.w-20{
+    width: 20%;
+}
+
 .p-1rem{
     padding: .25rem;
 }
-
-
 
 .bg-salmon{
     background-color: salmon;
@@ -183,14 +186,22 @@ nav a{
 /* #region main */
 #place-to-talk{
     background-image: url(./img/jumbo.png);
+    padding: 5rem;
 
     .section-title{
         color: var(--ds-white);
     }
+
+    p{
+        padding-top: 2rem;
+        color: var(--ds-white);
+        text-align: center;
+        line-height: 1.5rem;
+        font-size: 15px;
+    }
 }
 
 .section-title{
-    display: inline-block;
     font-size: 2.5rem;
 }
 
