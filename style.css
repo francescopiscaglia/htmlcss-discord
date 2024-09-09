@@ -171,6 +171,10 @@ section{
 .p-3rem{
     padding: 3rem;
 }
+
+.mtop-1{
+    margin-top: 1rem;
+}
 /* #endregion utilities */
 
 /* #region header */
@@ -289,10 +293,6 @@ nav a{
 footer{
     background-color: var(--ds-section-primary);
 
-    span{
-        color: var(--ds-footer-title);
-    }
-
     section{
         border-bottom: 1px solid white;
     }
@@ -300,11 +300,29 @@ footer{
     #last-section{
         padding-bottom: 0;
     }
+
+    span{
+        color: var(--ds-white);
+    }
 }
 
-#footer-title{
-    font-size: 1.5rem;
+.font-color{
+    color: var(--ds-footer-title);
 }
+
+.footer-title{
+    font-size: 1.5rem;
+    display: block;
+}
+
+#ita-flag{
+    width: 1.5rem;
+    vertical-align: middle;
+}
+
+#italiano{
+    font-size: .75rem;
+   
 /* #endregion footer */
 
 
