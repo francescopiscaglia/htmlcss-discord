@@ -105,6 +105,10 @@ section{
     .bg-gray{
         background-color: lightgrey;
     }
+
+    .bg-green{
+        background-color: green;
+    }
 }
 
 .container{
@@ -158,10 +162,6 @@ section{
 
 .p-3rem{
     padding: 3rem;
-}
-
-.bg-green{
-    background-color: green;
 }
 
 .bg-black{
@@ -256,6 +256,16 @@ nav a{
 
 #easy-find, #technology{
     background-color: var(--ds-bg-secondary);
+}
+
+#technology{
+    .tech-content{
+        text-align: center;
+    }
+
+    .tech-content p{
+        padding: 0rem 2rem;
+    }
 }
 
 /* #endregion main */
