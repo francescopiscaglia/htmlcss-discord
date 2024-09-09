@@ -250,8 +250,9 @@ nav a{
 
 #easy-find{
     background-color: var(--ds-bg-secondary);
+    
     .pad-item-left{
-        padding: 1rem 5rem 0 0;
+        padding: 2rem 5rem 0 0;
     }
 }
 
