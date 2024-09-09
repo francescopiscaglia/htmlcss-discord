@@ -242,7 +242,7 @@ nav a{
     border: 1px solid var(--ds-section-primary);
 }
 
-#invite-only{
+#invite-only, #community{
     .pad-item-right{
         padding: 1rem 0 0 5rem;
     }
