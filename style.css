@@ -187,24 +187,46 @@ nav a{
 #place-to-talk{
     background-image: url(./img/jumbo.png);
     padding: 5rem;
+    background-size: cover;
 
     .section-title{
         color: var(--ds-white);
     }
 
     p{
-        padding-top: 2rem;
+        padding: 2rem;
         color: var(--ds-white);
         text-align: center;
         line-height: 1.5rem;
         font-size: 15px;
+    }   
+
+    .btn{
+        padding: .75rem 1rem ;
+        border-radius: 2rem;
+        margin: 0rem 1rem 1rem 1rem;
+        font-size: 1rem;
     }
+    
 }
 
 .section-title{
     font-size: 2.5rem;
 }
 
+#mac-download{
+    background-color: white;
+    border: 1px solid white;
+   
+}
+
+#open-browser{
+    color: white;
+    background-color: var(--ds-section-primary);
+    border: 1px solid var(--ds-section-primary);
+    
+
+}
 /* #endregion main */
 
 
