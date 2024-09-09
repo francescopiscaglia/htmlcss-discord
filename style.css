@@ -141,6 +141,10 @@ section{
     padding: 3rem;
 }
 
+.pad-item{
+    padding: 1rem 0 0 5rem;
+}
+
 .bg-gray{
     background-color: lightgrey;
 }
@@ -156,7 +160,6 @@ section{
 .bg-violet{
     background-color: violet;
 }
-/* #endregion bg color */
 /* #endregion utilities */
 
 /* #region header */
@@ -230,6 +233,7 @@ nav a{
 
 #invite-only{
     color: var(--ds-section-primary);
+
 
     img{
         background-size: cover;
