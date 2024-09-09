@@ -24,24 +24,18 @@ section{
 }
 /* #endregion common */
 
-/* color palette */
-/* #region header */
+/* #region color palette */
 :root{
-    --header-primary: #3161e0;
-    --header-secondary: #ffff;
-    --header-login-btn-text: #2d3134;
+    --ds-white: #ffffff;
+    --ds-bg-banner: #3161e0;
+    --ds-bg-secondary: #f6f6f6;
+    --ds-login-text: #2d3134;
+    --ds-section-primary: #23272a;
+    --ds-mac-download: #8ea1e1;
+    --ds-footer-title: #7289da;
+    --ds-footer-btn: #8ea1e1;
 }
-/* #endregion header */
-
-/* #region main #place-to-talk section*/
-:root{
-    --place_to_talk-primary: #3161e0;
-    --place_to_talk-secondary: #ffff;
-    --place_to_talk-btn: #23272a;
-}
-
-/* #endregion main */
-
+/* #endregion color palette */
 
 /* #region utilities */
 #debug {
