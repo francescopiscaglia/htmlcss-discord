@@ -16,16 +16,16 @@ img{
 
 header{
     background-color: var(--ds-bg-banner);
-    padding: .5rem 0;
+    padding: 1rem 0;
 }
 
 footer{
     font-size: .75rem;
 }
 
-/* section{
-    padding: 1rem 0rem;
-} */
+section{
+   padding: 2rem 0rem;
+}
 /* #endregion common */
 
 /* #region color palette */
@@ -67,8 +67,6 @@ footer{
         height: 100%;
     }
 
-    
-
     .bg-orange{
         background-color: lightsalmon;
     }
@@ -84,6 +82,10 @@ footer{
     .bg-lblue{
         background-color: lightskyblue;
     }
+
+    .bg-salmon{
+        background-color: salmon;
+    }    
 }
 
 .container{
@@ -132,11 +134,11 @@ footer{
 }
 
 .p-1rem{
-    padding: .25rem;
+    padding: 1rem;
 }
 
-.bg-salmon{
-    background-color: salmon;
+.p-3rem{
+    padding: 3rem;
 }
 
 .bg-gray{
@@ -179,7 +181,8 @@ nav a{
 
 #login-btn{
     background-color: white;
-    border: 1px solid white
+    border: 1px solid white;
+    color: var(--ds-login-text);
 }
 /* #endregion header */
 
@@ -207,7 +210,6 @@ nav a{
         margin: 0rem 1rem 1rem 1rem;
         font-size: 1rem;
     }
-    
 }
 
 .section-title{
@@ -224,9 +226,27 @@ nav a{
     color: white;
     background-color: var(--ds-section-primary);
     border: 1px solid var(--ds-section-primary);
-    
-
 }
+
+#invite-only{
+    color: var(--ds-section-primary);
+
+    img{
+        background-size: cover;
+    }
+
+    span{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 1rem;
+        margin-top: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
 /* #endregion main */
 
 
