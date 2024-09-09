@@ -25,9 +25,13 @@ section{
 /* #endregion common */
 
 /* color palette */
+/* #region header */
 :root{
-    
+    --header-primary: #3161e0;
+    --header-secondary: #ffff;
+    --header-login-btn-text: #2d3134;
 }
+/* #endregion header */
 
 /* #region utilities */
 #debug {
