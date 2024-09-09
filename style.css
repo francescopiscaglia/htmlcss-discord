@@ -109,6 +109,14 @@ section{
     .bg-green{
         background-color: green;
     }
+
+    .bg-black{
+        background-color: black;
+    }
+    
+    .bg-violet{
+        background-color: violet;
+    }
 }
 
 .container{
@@ -162,14 +170,6 @@ section{
 
 .p-3rem{
     padding: 3rem;
-}
-
-.bg-black{
-    background-color: black;
-}
-
-.bg-violet{
-    background-color: violet;
 }
 /* #endregion utilities */
 
@@ -285,9 +285,14 @@ nav a{
 }
 /* #endregion main */
 
-
 /* #region footer */
 footer{
+    background-color: var(--ds-section-primary);
+
+    span{
+        color: var(--ds-footer-title);
+    }
+
     section{
         border-bottom: 1px solid white;
     }
@@ -295,6 +300,10 @@ footer{
     #last-section{
         padding-bottom: 0;
     }
+}
+
+#footer-title{
+    font-size: 1.5rem;
 }
 /* #endregion footer */
 
