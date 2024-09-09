@@ -24,7 +24,22 @@ footer{
 }
 
 section{
-   padding: 2rem 0rem;
+   padding: 5rem 0rem;
+   color: var(--ds-section-primary);  
+    img{
+        background-size: cover;
+    }
+
+    span{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 1rem;
+        margin-top: 1rem;
+        line-height: 1.5rem;
+    }
 }
 /* #endregion common */
 
@@ -141,10 +156,6 @@ section{
     padding: 3rem;
 }
 
-.pad-item{
-    padding: 1rem 0 0 5rem;
-}
-
 .bg-gray{
     background-color: lightgrey;
 }
@@ -232,22 +243,15 @@ nav a{
 }
 
 #invite-only{
-    color: var(--ds-section-primary);
-
-
-    img{
-        background-size: cover;
+    .pad-item-right{
+        padding: 1rem 0 0 5rem;
     }
+}
 
-    span{
-        font-size: 2rem;
-        font-weight: bold;
-    }
-
-    p{
-        font-size: 1rem;
-        margin-top: 1rem;
-        line-height: 1.5rem;
+#easy-find{
+    background-color: var(--ds-bg-secondary);
+    .pad-item-left{
+        padding: 1rem 5rem 0 0;
     }
 }
 
