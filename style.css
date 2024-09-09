@@ -33,6 +33,16 @@ section{
 }
 /* #endregion header */
 
+/* #region main #place-to-talk section*/
+:root{
+    --place_to_talk-primary: #3161e0;
+    --place_to_talk-secondary: #ffff;
+    --place_to_talk-btn: #23272a;
+}
+
+/* #endregion main */
+
+
 /* #region utilities */
 #debug {
     header{
