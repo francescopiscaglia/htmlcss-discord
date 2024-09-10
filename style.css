@@ -123,6 +123,7 @@ section{
     }
 }
 
+/* #region flexbox */
 .container{
     width: 80%;
     margin: auto;
@@ -151,6 +152,7 @@ section{
 .align-center{
     align-items: center;
 }
+/* #endregion flexbox */
 
 .w-60{
     width: 60%;
