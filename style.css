@@ -182,7 +182,7 @@ section{
 /* #endregion utilities */
 
 /* #region header */
-#ds-logo-img{
+.ds-logo-img{
     width: 5rem;
     vertical-align: middle;
 }
